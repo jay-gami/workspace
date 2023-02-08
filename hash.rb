@@ -29,11 +29,12 @@ puts country.key("3")  # hash.index(value)
 # puts country
 # puts country.merge(city){|key,oldval,newval| oldval+newval} #hash.merge(other_hash){|key,oldval,newval| oldval+newval}
 
-# puts country.store("as","AUSTRA",) #hash.store(key,value)
-# puts country.store("ff","AA",) #hash.store(key,value)
+puts country.store("as","AUSTRA",) #hash.store(key,value)
+puts country.store("ff","AA",) #hash.store(key,value)
 # puts country.reject{ |key, value| key < "sp" }
 
 # puts country.rehash
+puts country
 
 
 # puts country.default="nnn" #hash.default = obj
