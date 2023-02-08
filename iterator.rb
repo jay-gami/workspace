@@ -14,11 +14,7 @@
 # puts b
 
 begin
-  file = open("./unexistant_file")
-  if file
-     puts "File opened successfully"
+    IO.sysopen("./index.html")
+  rescue
+    puts "Can't open IO device."
   end
-rescue
-  fname = "existant_file"
-  retry
-end
