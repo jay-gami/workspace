@@ -18,22 +18,11 @@
 # puts c
 
 
-
-
-Hash[["es"=>|,"england"]*2]
-# city={"esf"=>"MUMBAI"}
-# puts country.inspect
-
-# puts country["in"]#hash.[key]
-# puts city.default("") #hash.default(key = nil)
-
-# puts country
-# puts country.index(1)
-# values=country.value
-puts Hash.index('England')
-puts country
-
-
-
-
-
+class Customer
+    @@no_of_customers = 2
+    def initialize(id, name, addr)
+       @cust_id = id
+       @cust_name = name
+       @cust_addr = addr
+    end
+ end
