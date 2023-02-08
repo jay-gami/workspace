@@ -7,8 +7,10 @@ city={"es"=>"MUMBAI"}
 # puts country["in"]#hash.[key]
 # puts city.default("") #hash.default(key = nil)
 # puts country.shift
-
 puts country
+puts country.values_at("es","sp")
+puts country.replace(city)
+puts country.to_hash()
 # puts country
 # puts country.index(1)
 # values=country.value
@@ -51,7 +53,7 @@ puts country.key("3")  # hash.index(value)
 # # puts city.each{|key,value| city}  #hash.each { |key,value| block }
 # puts country.empty?  #hash.empty?
 
-# puts country.replace(city)
+# puts country.replace(city) 
 # puts "#{country}"
 # # puts "#{city}"
 # time = Time.new
