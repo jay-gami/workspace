@@ -15,8 +15,18 @@
 # puts File::mtime( "test.txt" ) 
 # puts Dir.mkdir "Project"
 # puts Dir.exist? "Project"  
-puts Dir.exist? "dirName" 
-puts Dir.pwd   
+# puts Dir.exist? "dirName" 
+# puts Dir.pwd   
 
 # Dir.rmdir "Project"  
-puts File.size?( "vehicle.txt" )    
+# puts File.size?( "vehicle.txt" ) 
+
+
+# arr = IO.readlines("vehicle.txt")
+# puts arr[0]
+# puts arr[1]   
+# puts arr[2]
+
+# IO.foreach("vehicle.txt"){|block| puts block}
+
+
