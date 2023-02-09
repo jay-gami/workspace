@@ -54,6 +54,7 @@
 # veh2=Vehicle.new("2","bmw","2005")
 
 # veh1.total_no_vehicle()
+
 # veh2.total_no_vehicle()
 
 
